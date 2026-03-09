@@ -1,0 +1,54 @@
+# =========================
+# Ambiente Python
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Cache / build Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Segredos / variaveis
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Dados operacionais locais
+# =========================
+app/data/*.csv
+app/data/*.json
+app/exports/
+*.pdf
+*.zip
+*.xlsx
+
+# =========================
+# Runtime local do bot
+# =========================
+.telegram_bot.lock
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Sistema operacional
+# =========================
+Thumbs.db
+.DS_Store
